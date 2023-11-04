@@ -6,7 +6,6 @@ const BottomForecastHour = ({ setClickTime }) => {
   const [selected, setSelected] = useState(0);
   const [hourClicked, setHourClicked] = useState(0);
 
-  //   console.log(hourClicked);
   const handleRightButton = () => {
     setAM(false);
     setClickTime(`${hourClicked} PM`);
